@@ -95,4 +95,26 @@ border: 2px solid palegreen;
 border-radius: 50%;
 justify-content: center;
 align-items: center;
+cursor: pointer;
+}
+
+.features  button{
+border: none;
+outline: none;
+padding: 13px 22px;
+border-radius:30px;
+background:palegreen;
+cursor: pointer;
+font-size: 16px;
+}
+
+.features ul li:hover{
+    color: white;
+    background: palegreen;
+    transition: all 0.2s ease;
+}
+
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
 }
